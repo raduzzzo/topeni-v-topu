@@ -1,12 +1,5 @@
-const revealItems = document.querySelectorAll('.reveal');
-const observer = new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');}})}, {threshold:.12});
-revealItems.forEach(item=>observer.observe(item));
-
-const answer = document.getElementById('diagnosticAnswer');
-document.querySelectorAll('.diagnostic').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    document.querySelectorAll('.diagnostic').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    answer.textContent = btn.dataset.answer;
-  });
-});
+const toggle=document.querySelector('.nav-toggle');
+const nav=document.querySelector('.nav');
+if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',open?'true':'false')});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')))}
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
