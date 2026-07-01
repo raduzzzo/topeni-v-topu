@@ -1,14 +1,22 @@
-# Topení v TOPU - web
+# Topení v TOPU web 2.0
 
-Statický web pro Topení v TOPU.
+Statický web pro GitHub Pages.
 
-## Soubory
-- `index.html` hlavní stránka
-- `styles.css` vzhled
-- `script.js` menu a animace
-- `assets/` logo, banner, ikona
+## Nahrání na GitHub
 
-## Kontakt
-Radovan Alvín  
-+420 732 891 385  
-info@topenivtopu.cz
+1. Rozbal ZIP.
+2. Obsah složky nahraj do kořene repozitáře.
+3. Ve VS Code spusť:
+
+```bash
+git add .
+git commit -m "Web 2.0"
+git push
+```
+
+## Obsah
+
+- index.html
+- styles.css
+- script.js
+- assets/
