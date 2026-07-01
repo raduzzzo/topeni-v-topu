@@ -1,8 +1,18 @@
-# Topení v TOPU – rozklikávací verze
+# Topení v TOPU – dark premium web
 
-Jednoduchý web s rozklikávacími kartami a FAQ.
+Statická verze webu.
 
-Nahrání:
+## Nasazení
+Nahraj obsah složky do repozitáře a spusť:
+
+```bash
 git add .
-git commit -m "Rozklikavaci web"
+git commit -m "Tmavy premium web"
 git push
+```
+
+## Soubory
+- index.html
+- styles.css
+- script.js
+- assets/
