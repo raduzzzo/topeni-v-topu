@@ -1,9 +1,8 @@
-# Topení v TOPU - jednoduchá verze webu
+# Topení v TOPU – rozklikávací verze
 
-Jednoduchý, stručný a přehledný web.
+Jednoduchý web s rozklikávacími kartami a FAQ.
 
-Kontakt:
-Radovan Alvín  
-IČO: 19339526  
-+420 732 891 385  
-info@topenivtopu.cz
+Nahrání:
+git add .
+git commit -m "Rozklikavaci web"
+git push
