@@ -1,18 +1,3 @@
-# Topení v TOPU – dark premium web
+# Web V3 TOP Standard
 
-Statická verze webu.
-
-## Nasazení
-Nahraj obsah složky do repozitáře a spusť:
-
-```bash
-git add .
-git commit -m "Tmavy premium web"
-git push
-```
-
-## Soubory
-- index.html
-- styles.css
-- script.js
-- assets/
+Nasazení: git add . && git commit -m "Web V3 TOP Standard" && git push
